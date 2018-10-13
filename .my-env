@@ -1,12 +1,5 @@
-MY_ENV_HOME=${MY_ENV_HOME:-.}
-
 # set PATH
 export PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
-
-#oh my zsh
-if [ -f $MY_ENV_HOME/.zshrc ]; then
-   source $MY_ENV_HOME/.zshrc
-fi
 
 #git-autocomplete
 if [ -f $MY_ENV_HOME/git-completion.bash ]; then
