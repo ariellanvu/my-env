@@ -1,11 +1,6 @@
 # set PATH
 export PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
 
-#git-autocomplete
-if [ -f $MY_ENV_HOME/git-completion.bash ]; then
-   source $MY_ENV_HOME/git-completion.bash
-fi
-
 #personal aliases
 if [ -f $MY_ENV_HOME/.aliases ]; then
    source $MY_ENV_HOME/.aliases
