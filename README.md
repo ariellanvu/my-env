@@ -9,13 +9,8 @@ personal
 git clone git@github.com:ariella-pw/my-env.git
 ```
 
-##### 2. Clone the `oh-my-zsh` repository:
+##### 2. Install `oh-my-zsh`: https://github.com/robbyrussell/oh-my-zsh#basic-installation
 
-```shell
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/git/.oh-my-zsh
-```
-
-(Put steps 3 -> 5 into an exec?)
 ##### 3. Make a copy of the latest `.zshrc` from `oh-my-zsh`
 ```shell
 cp ~/.zshrc ~/.zshrc.orig
@@ -30,3 +25,5 @@ cp ~/git/my-env/.zshrc ~/.zshrc
 ```shell
 chsh -s /bin/zsh
 ```
+
+TODO: Create a script for steps 3 -> 5?
