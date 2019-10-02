@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/git/.oh-my-zsh
+export ZSH=$HOME/git/oh-my-zsh
 
 # START Custom Script - Path to my-env
 export MY_ENV_HOME=$HOME/git/my-env
